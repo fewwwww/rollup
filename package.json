@@ -1,0 +1,13 @@
+{
+  "name": "rollup",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "rollup.js",
+  "scripts": {
+    "start": "node rollup.js",
+    "test": "echo 'there is no test'"
+  },
+  "author": "",
+  "license": "ISC"
+}
