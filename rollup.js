@@ -1,8 +1,8 @@
-import { userTransaction } from './user.js';
-import { sequencer } from './sequencer.js';
-import { daContract } from './da.js';
-import { validator } from './validator.js';
-import { bridgeContract } from './bridge.js';
+import { userTransaction } from './roles/user.js';
+import { sequencer } from './roles/sequencer.js';
+import { daContract } from './contracts/da.js';
+import { validator } from './roles/validator.js';
+import { bridgeContract } from './contracts/bridge.js';
 
 // 1. User Submit Transaction to Rollup Sequencer
 let transactions = [];
